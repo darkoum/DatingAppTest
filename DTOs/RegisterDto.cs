@@ -17,7 +17,7 @@ namespace API.DTOs
         public string Gender { get; set; }
     
         [Required]
-        public DateOnly? DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
         [Required]
         public string City { get; set; }
         [Required]
